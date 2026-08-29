@@ -71,7 +71,7 @@ function Signup() {
     <div className="container p-5 md-5">
       <div className="row text-center">
         <div className="col-6 p-5">
-          <img src="images/signup.png" style={{ width: "100%" }} alt="Signup" />
+          <img src="/images/signup.png" style={{ width: "100%" }} alt="Signup" />
         </div>
         <div className="col-6 p-5 text-start">
           <h2>Signup Now</h2>

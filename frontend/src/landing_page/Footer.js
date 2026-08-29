@@ -9,7 +9,7 @@ function Footer() {
     >
       <div className="row mt-5">
         <div className="col p-2">
-          <img src="images/logo.svg" alt="logo" style={{ width: "50%" }} />
+          <img src="/images/logo.svg" alt="logo" style={{ width: "50%" }} />
           <p
             className="fs-0 text-muted p-1 mt-3 my-3"
             style={{ fontSize: "14px" }}

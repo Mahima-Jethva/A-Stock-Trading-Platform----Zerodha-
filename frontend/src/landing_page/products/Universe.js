@@ -17,7 +17,7 @@ function Universe({
         further with our partner platforms</p>
       
         <div className="col-4 p-3 ">
-          <img src="images/zerodhafundhouse.png" style={{width:'50%', height:'40%'}}/>
+          <img src="/images/zerodhafundhouse.png" style={{width:'50%', height:'40%'}}/>
           <p className="text-12 text-light-grey p-3 poppins ">
             Our asset management venture
             <br/>
@@ -28,7 +28,7 @@ function Universe({
           </p>
         </div>
         <div className="col-4 p-3">
-          <img src="images/sensibull-logo.svg" style={{width:'50%', height:'40%'}}/>
+          <img src="/images/sensibull-logo.svg" style={{width:'50%', height:'40%'}}/>
           <p className="text-light-grey poppins text-center text-12 mt-3">
             Options trading platform that lets you
             <br/>
@@ -38,7 +38,7 @@ function Universe({
           </p>
         </div>
         <div className="col-4 p-3">
-          <img src="images/tijoriimg.svg" style={{width:'50%', height:'40%'}}/>
+          <img src="/images/tijoriimg.svg" style={{width:'50%', height:'40%'}}/>
           <p className="text-light-grey poppins text-center text-12 mt-3">
             Investment research platform 
             <br/>
@@ -49,7 +49,7 @@ function Universe({
         </div>
 
         <div className="col-4 p-3">
-          <img src="images/streakLogo.png" style={{width:'50%', height:'40%'}}/>
+          <img src="/images/streakLogo.png" style={{width:'50%', height:'40%'}}/>
           {/* <p className=" poppins text-center mt-3 text-light-grey text-12">
             Our asset management venture, that is creating simple and
             transparent index funds to help you to save for your goals.
@@ -64,7 +64,7 @@ function Universe({
         </div>
 
         <div className="col-4 p-3">
-          <img src="images/smallcaseLogo.png" style={{width:'50%', height:'40%'}}/>
+          <img src="/images/smallcaseLogo.png" style={{width:'50%', height:'40%'}}/>
           <p className="text-light-grey poppins text-center text-12 mt-3">
             Thematic investing platform
             <br/>
@@ -75,7 +75,7 @@ function Universe({
         </div>
 
         <div className="col-4 p-3">
-          <img src="images/ditto-logo.png" style={{width:'50%', height:'40%'}}/>
+          <img src="/images/ditto-logo.png" style={{width:'50%', height:'40%'}}/>
           <p className="text-light-grey poppins text-center text-12 mt-3">
             Personalised advice to life
             <br/>

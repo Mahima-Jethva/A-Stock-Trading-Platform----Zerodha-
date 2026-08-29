@@ -5,7 +5,7 @@ function Education() {
         <div className='container'>
             <div className='row p-5'>
                 <div className='col-6'>
-                    <img src='images/index-education.svg' alt='education'/>
+                    <img src='/images/index-education.svg' alt='education'/>
                 </div>
                 <div className='col-6'>
                     <h3 className='mt-5'>Free and open market education</h3>

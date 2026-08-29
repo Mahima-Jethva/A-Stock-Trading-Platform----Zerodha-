@@ -45,7 +45,7 @@ function Login() {
     <div className="container p-5 md-5">
       <div className="row text-center">
         <div className="col-6 p-5">
-          <img src="images/signup.png" style={{ width: "100%" }} alt="Login" />
+          <img src="/images/signup.png" style={{ width: "100%" }} alt="Login" />
         </div>
         <div className="col-6 p-5 text-start">
           <h2>Login to Zerodha</h2>

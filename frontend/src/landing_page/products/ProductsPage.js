@@ -11,7 +11,7 @@ function ProductsPage() {
     <>
       <Hero />
       <LeftSection
-        imageURL="images/kite.png"
+        imageURL="/images/kite.png"
         productName="Kite"
         productDescription="Kite is a powerful trading platform that offers a seamless experience for traders of all levels.Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
         tryDemo=""
@@ -20,7 +20,7 @@ function ProductsPage() {
         appStore=""
       />
       <RightSection
-        imageURL="images/console.png"
+        imageURL="/images/console.png"
         productName="Console"
         productDescription="The central dashboard for your Zerodha account.Gain insights into your trades and investments with in-depth reports and visualisations."
         tryDemo=""
@@ -29,7 +29,7 @@ function ProductsPage() {
         appStore=""
       />
       <LeftSection
-        imageURL="images/varsity.png"
+        imageURL="/images/varsity.png"
         productName="Varsity"
         productDescription="The ultimate platform for learning investing and trading. Get access to a vast library of educational resources, interactive courses, and expert insights."
         googlePlay=""
