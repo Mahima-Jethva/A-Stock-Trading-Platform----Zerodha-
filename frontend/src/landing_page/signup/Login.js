@@ -22,7 +22,7 @@ function Login() {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/login",
+        "https://a-stock-trading-platform-zerodha.onrender.com/login",
         { ...inputValue },
         { withCredentials: true }
       );
@@ -31,7 +31,7 @@ function Login() {
         localStorage.setItem("token", data.token);
         alert(data.message || "Login Successful!");
         // Exact Dashboard Port 3001 Redirect
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://your-zerodha-dashboard.vercel.app";
       } else {
         alert(data.message || "Login failed");
       }
