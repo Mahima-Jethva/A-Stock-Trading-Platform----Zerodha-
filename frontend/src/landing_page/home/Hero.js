@@ -4,7 +4,7 @@ function Hero() {
     return ( 
         <div className = 'container p-5'>
             <div className = 'row text-center'>
-                <img src = 'frontend\public\Images\homeHero.png' alt='Hero Image' className = 'mb--10 mt-1'/>
+                <img src = 'Images\homeHero.png' alt='Hero Image' className = 'mb--10 mt-1'/>
                 <h1 className = 'mt-5 fs-2'>Invest in everything</h1>
                 <p className = 'fs-4 mt-2'>
                 Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
