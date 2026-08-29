@@ -1,12 +1,12 @@
 import React from 'react';
-import homeHero from '../../../../public/images/homeHero.png';
+// import homeHero from '../../../../public/images/homeHero.png';
 
 function Hero() {
     return ( 
         <div className = 'container p-5'>
             <div className = 'row text-center'>
-                {/* <img src = '/images/homeHero.png' alt='Hero Image' className = 'mb--10 mt-1'/> */}
-                <img src={homeHero} alt='Hero Image' className='img-fluid mb-5' />
+                <img src = '/images/homeHero.png' alt='Hero Image' className = 'mb--10 mt-1'/>
+                {/* <img src={homeHero} alt='Hero Image' className='img-fluid mb-5' /> */}
                 <h1 className = 'mt-5 fs-2'>Invest in everything</h1>
                 <p className = 'fs-4 mt-2'>
                 Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
