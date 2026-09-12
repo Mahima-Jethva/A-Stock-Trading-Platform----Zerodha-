@@ -247,7 +247,12 @@ const app = express();
 // 1. Correct CORS Setup (Hamesha route/body-parser se pehle configure karein)
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"], // Exact Origins Allow karein
+    // origin: ["http://localhost:3000", "http://localhost:3001"], 
+    // Exact Origins Allow karein
+    origin : 
+      ["http://localhost:3000",
+      "http://localhost:3001",
+      "https://stocktradingplatform-zerodhaclone.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
