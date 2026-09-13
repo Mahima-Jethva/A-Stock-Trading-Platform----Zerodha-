@@ -31,7 +31,7 @@ function Login() {
         localStorage.setItem("token", data.token);
         alert(data.message || "Login Successful!");
         // Exact Dashboard Port 3001 Redirect
-        window.location.href = "https://a-stock-trading-platform-zerodha.vercel.app";
+        window.location.href = "https://a-stock-trading-platform-zerodha-yb-two.vercel.app";
       } else {
         alert(data.message || "Login failed");
       }
